@@ -10,7 +10,7 @@ namespace _2025._01._30.dolgozat
 {
     internal class AutoGumi: UserControl, Ialkatresz
     {
-        public AutoGumi(string name = "Gumi", string material = "gumi", int price = 20000) 
+        public AutoGumi(string name, string material, int price) 
         {
             InitializeComponent();
             nev = name;
